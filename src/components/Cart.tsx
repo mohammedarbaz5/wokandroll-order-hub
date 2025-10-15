@@ -86,7 +86,7 @@ export const Cart = ({
                       </Button>
                     </div>
                     <p className="text-sm text-primary font-bold mb-2">
-                      ${item.price.toFixed(2)}
+                      ₹{item.price.toFixed(0)}
                     </p>
                     <div className="flex items-center gap-2">
                       <Button
@@ -121,7 +121,7 @@ export const Cart = ({
             <div className="border-t border-border pt-4 space-y-4">
               <div className="flex items-center justify-between text-xl font-bold">
                 <span>Total:</span>
-                <span className="text-primary">${total.toFixed(2)}</span>
+                <span className="text-primary">₹{total.toFixed(0)}</span>
               </div>
               <Button
                 className="w-full hero-gradient text-white font-semibold py-6 text-lg rounded-full hover:scale-105 transition-smooth"

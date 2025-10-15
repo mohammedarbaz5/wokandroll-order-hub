@@ -19,7 +19,7 @@ export const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-primary mt-0.5" />
-                <span>123 Food Street, Chinatown<br />New York, NY 10013</span>
+                <span>Road No. 10, Banjara Hills<br />Hyderabad, Telangana 500034</span>
               </div>
               <div className="flex items-start gap-2">
                 <Clock className="h-5 w-5 text-primary mt-0.5" />
@@ -33,7 +33,7 @@ export const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2">
                 <Phone className="h-5 w-5 text-primary" />
-                <span>(555) 123-4567</span>
+                <span>+91 40 2355 9876</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-primary" />

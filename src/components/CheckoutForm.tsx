@@ -85,13 +85,13 @@ export const CheckoutForm = ({
                       {item.name} x {item.quantity}
                     </span>
                     <span className="font-semibold">
-                      ${(item.price * item.quantity).toFixed(2)}
+                      ₹{(item.price * item.quantity).toFixed(0)}
                     </span>
                   </div>
                 ))}
                 <div className="flex justify-between pt-2 border-t border-border text-lg font-bold">
                   <span>Total:</span>
-                  <span className="text-primary">${total.toFixed(2)}</span>
+                  <span className="text-primary">₹{total.toFixed(0)}</span>
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ export const CheckoutForm = ({
                   type="tel"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
-                  placeholder="(555) 123-4567"
+                  placeholder="+91 98765 43210"
                   required
                   className="mt-1"
                 />

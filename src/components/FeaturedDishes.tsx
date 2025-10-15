@@ -53,7 +53,7 @@ export const FeaturedDishes = ({ dishes, onAddToCart }: FeaturedDishesProps) => 
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-bold text-primary">
-                    ${dish.price.toFixed(2)}
+                    ₹{dish.price.toFixed(0)}
                   </span>
                   <Button
                     size="sm"

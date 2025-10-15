@@ -80,7 +80,7 @@ export const MenuSection = ({ categories, onAddToCart }: MenuSectionProps) => {
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-bold text-primary">
-                    ${item.price.toFixed(2)}
+                    ₹{item.price.toFixed(0)}
                   </span>
                   <Button
                     size="sm"
